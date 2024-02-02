@@ -1,0 +1,19 @@
+.heart {
+    transform: translateY(150px);
+    animation: popup 10s 6.5s ease infinite;
+  }
+
+@keyframes popup {
+    0% {
+      transform: translateY(150px);
+    }
+    34% {
+      transform: translateY(20px);
+    }
+    37% {
+      transform: translateY(150px);
+    }
+    100% {
+      transform: translateY(150px);
+    }
+  }
